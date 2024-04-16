@@ -57,7 +57,7 @@ class config {
         subcategory: "Anti-Monkey",
         category: "Random"
     })
-    AntiMonkey = true;
+    AntiMonkey = false;
 
     @SelectorProperty({
         name: "Selection of Terminal",
@@ -67,14 +67,6 @@ class config {
         options: [`Disabled`, `dev`, `1`, `2`, `3`, `4`],
     })
     F7Calls = 0;
-
-//    @SwitchProperty({
-//        name: "Leap Announcement",
-//        description: "Announces who you leap to.",
-//        subcategory: "Party Commands",
-//        category: "Chat"
-//    })
-//    leapAnnounce = false;
 
     @SwitchProperty({
         name: "Autorefill",
