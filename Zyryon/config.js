@@ -53,7 +53,7 @@ class config {
         subcategory: "Anti-Monkey",
         category: "Random"
     })
-    AntiMonkey = 0;
+    AntiMonkey = false;
 
     @SelectorProperty({
         name: "Selection of Terminal",
