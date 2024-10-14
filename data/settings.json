@@ -1,0 +1,420 @@
+[
+    {
+        "category": "Dungeons",
+        "settings": [
+            {
+                "type": 6,
+                "name": "leapAnnounce",
+                "value": true
+            },
+            {
+                "type": 7,
+                "name": "HideLeapMsgLevel",
+                "value": 1
+            },
+            {
+                "type": 6,
+                "name": "AutoGFS",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "ManualGFS",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "PreDevTimer",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "IgnoreClassCheck",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "PreDevTimerLive",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "PreDevTimerOnlyPB",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "PreDevTimerIncPB",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "MaskCooldownTimer",
+                "value": true
+            },
+            {
+                "type": 7,
+                "name": "MaskCooldownMode",
+                "value": 1
+            },
+            {
+                "type": 1,
+                "name": "MaskCooldownDigits",
+                "value": 1
+            },
+            {
+                "type": 6,
+                "name": "MaskCooldownTimerOnlyP3",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "DungeonTitleMainToggle",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "DungeonKeyDoorTitle",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "BloodReadyDoneTitle",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "ChestLockedTitle",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "ThunderBottleNotifier",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "ThunderBottleNotifierMessage",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "DungeonStartTimer",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "PoisonReminder",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "DebuffDisplay",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "DebuffDisplayOnlyP5",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "CrystalTimer",
+                "value": true
+            },
+            {
+                "type": 7,
+                "name": "CrystalTimerPB",
+                "value": 3
+            },
+            {
+                "type": 7,
+                "name": "CrystalTimerSum",
+                "value": 3
+            },
+            {
+                "type": 6,
+                "name": "MaxorSpawnTimer",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "EnergyCrystalAlert",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "WishTitle",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "BonzoMaskReminder",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "customterminals",
+                "value": true
+            },
+            {
+                "type": 1,
+                "name": "customterminalsduration",
+                "value": 2.54
+            },
+            {
+                "type": 7,
+                "name": "customterminalsmode",
+                "value": 1
+            },
+            {
+                "type": 6,
+                "name": "customterminalmessage",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "ragaxetimer",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "withershieldtimer",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "CustomWitherCloak",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "relicwaypoints",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "customstormlightningtimer",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "PredevRoutes",
+                "value": false
+            }
+        ]
+    },
+    {
+        "category": "Chat",
+        "settings": [
+            {
+                "type": 6,
+                "name": "PartyCommands",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "AntiEscrow",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "partyinviteping",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "partykicknotif",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "DropsChatMsg",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "RAREDROP",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "CRAZYRAREDROP",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "INSANEDROP",
+                "value": false
+            }
+        ]
+    },
+    {
+        "category": "General",
+        "settings": [
+            {
+                "type": 6,
+                "name": "petkeybinds",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "antikick",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "hideaotvparticles",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "hidewithershieldparticles",
+                "value": true
+            }
+        ]
+    },
+    {
+        "category": "Mining",
+        "settings": [
+            {
+                "type": 6,
+                "name": "MiningSpeedBoostNotifier",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "MiningSpeedBoostTimer",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "ComDoneTitle",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "resetcold",
+                "value": false
+            }
+        ]
+    },
+    {
+        "category": "Messages",
+        "settings": [
+            {
+                "type": 6,
+                "name": "HideAllUselessBazzarMessages",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "HideCustomMessages",
+                "value": false
+            }
+        ]
+    },
+    {
+        "category": "Random",
+        "settings": [
+            {
+                "type": 6,
+                "name": "AntiMonkey",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "AntiYap",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "ahbuyping",
+                "value": false
+            }
+        ]
+    },
+    {
+        "category": "HUD",
+        "settings": [
+            {
+                "type": 6,
+                "name": "HudElementsOnScreenMainToggle",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "FpsOnScren",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "PitchYawHud",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "ArmorAndHandOnScreen",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "Hand",
+                "value": false
+            }
+        ]
+    },
+    {
+        "category": "Move Elements",
+        "settings": [
+            {
+                "type": 2,
+                "name": "maskcooldownmove"
+            },
+            {
+                "type": 2,
+                "name": "movepredevtimer"
+            },
+            {
+                "type": 2,
+                "name": "movefps"
+            },
+            {
+                "type": 2,
+                "name": "movepitchhud"
+            },
+            {
+                "type": 2,
+                "name": "moveyawhud"
+            },
+            {
+                "type": 2,
+                "name": "movearmorhud"
+            },
+            {
+                "type": 2,
+                "name": "movedebuffdisplayhud"
+            },
+            {
+                "type": 2,
+                "name": "movecustomterminals"
+            },
+            {
+                "type": 2,
+                "name": "button"
+            },
+            {
+                "type": 2,
+                "name": "movecustomwithercloak"
+            },
+            {
+                "type": 2,
+                "name": "movecustomstormlightningtimer"
+            },
+            {
+                "type": 2,
+                "name": "movemaskcooldown"
+            }
+        ]
+    }
+]
