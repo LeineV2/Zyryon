@@ -1,8 +1,0 @@
-{
-    "name": "Zyryon",
-    "description": "Dungeons based module",
-    "creator": "LeineV3",
-    "version": "3.0.0",
-    "entry": "index.js",
-    "requires": ["Amaterasu", "PogData", "RenderLibV2", "ServerTick"]
-}
