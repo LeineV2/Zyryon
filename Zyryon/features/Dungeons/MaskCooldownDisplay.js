@@ -36,8 +36,10 @@ register("renderOverlay", () => {
     }
     if(config().MaskCooldownTimerOnlyP3 && !p3) return
     const text = new Text(`${bonzoText} \n${spiritText} \n${phoenixText}`).setScale(data.maskcooldown.scale).setShadow(data.maskcooldown.shadow);
-    Renderer.translate(data.maskcooldown.x, data.maskcooldown.y)
-    Renderer.drawRect(Renderer.color(0, 0, 0, 255 * 0.25), -10, -10, Renderer.getStringWidth(text) * 0.13, text.getHeight() + 15)
+    if(config().MaskCooldownBackground) {
+        Renderer.translate(data.maskcooldown.x, data.maskcooldown.y);
+        Renderer.drawRect(Renderer.color(0, 0, 0, 255 * 0.25), -10, -10, Renderer.getStringWidth(text) * 0.13, text.getHeight() + 15);
+    }
     text.draw(data.maskcooldown.x, data.maskcooldown.y)
 })
 
