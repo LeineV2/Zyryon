@@ -107,6 +107,16 @@ const defaultConf = new DefaultConfig("Zyryon", "data/settings.json")
         return data.MaskCooldownTimer
     }
 })
+.addSwitch({
+    category: "Dungeons", 
+    configName: "MaskCooldownBackground",
+    title: "Mask Cooldown Background",
+    description: "Shows a Background for the Mask Cooldown",
+    subcategory: "Mask Cooldown Timer",
+    shouldShow(data) {
+        return data.MaskCooldownTimer
+    }
+})
 .addSlider({
     category: "Dungeons",
     configName: "MaskCooldownDigits",
@@ -360,6 +370,47 @@ const defaultConf = new DefaultConfig("Zyryon", "data/settings.json")
     subcategory: "Predev",
     shouldShow(data) {
         return data.PreDevTimer
+    }
+})
+.addSwitch({
+    category: "Dungeons",
+    configName: "PuzzleCountWarning",
+    title: "Puzzle Count Warning",
+    description: "Shows a Warning when you enter a Dungeon with a set amount of Puzzles (or more)",
+    subcategory: "Puzzle Count Warning"
+})
+.addSlider({
+    category: "Dungeons",
+    configName: "PuzzleCountWarningAmount",
+    title: "Puzzle Count Warning Amount",
+    description: "Amount of Puzzles that triggers the Warning",
+    options: [1, 5],
+    value: 1,
+    subcategory: "Puzzle Count Warning",
+    shouldShow(data) {
+        return data.PuzzleCountWarning
+    }
+})
+.addMultiCheckbox({
+    category: "Dungeons",
+    subcategory: "Puzzle Count Warning",
+    configName: "PuzzleWarningLocations",
+    title: "Puzzle Warning Locations",
+    description: "Choose where you want to see the Puzzle Warning",
+    options: [
+        {
+            title: "Chat",
+            configName: "PuzzleCountWarningChatMessageWarning",
+            value: false
+        },
+        {
+            title: "Title",
+            configName: "PuzzleCountWarningTitleWarning",
+            value: false
+        }
+    ],
+    shouldShow(data) {
+        return data.PuzzleCountWarning
     }
 })
 .addSwitch({
